@@ -1,0 +1,42 @@
+.header {
+  background-color: #292b33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 16px;
+}
+
+.avatar {
+  border-radius: 9999px;
+  border: 2px solid #292b33;
+  margin-left: -4px;
+  display: inline-block;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
+
+.title {
+  background: #fff;
+  padding: 24px 0;
+}
+
+.title > h1 {
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.headerRight {
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+}
+
+.headerRight > *:last-child {
+  margin-left: 12px;
+}
